@@ -17,12 +17,15 @@ body {
   padding: 0;
 }
 
-a,
-.green {
-  text-decoration: underline;
-  color: #fc3a6a;
+a {
+  color: var(--color-text);
+  text-decoration: none;
   transition: 0.4s;
   padding: 3px;
+}
+
+.pink {
+  color: #fc3a6a;
 }
 
 
