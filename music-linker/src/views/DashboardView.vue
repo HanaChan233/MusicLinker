@@ -4,8 +4,18 @@ import { RouterLink } from 'vue-router';
 
 <template>
   <div>
+    <div style="flex-direction: column;">
+      <div>
+        <h1>我的歌单</h1>
+        
+      </div>
+      <div>
+        <h1>上次播放</h1>
+        
+      </div>
+    </div>
     <div>
-      猜你喜欢
+      <h1>猜你喜欢</h1>
     </div>
   </div>
 </template>

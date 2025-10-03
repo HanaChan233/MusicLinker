@@ -8,12 +8,17 @@
   },
   "scripts": {
     "dev": "vite",
+    "server": "node backend/server.js",
+    "server:dev": "nodemon backend/server.js",
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
     "vue": "^3.5.22"
   },
   "devDependencies": {
@@ -23,6 +28,7 @@
     "eslint": "^9.33.0",
     "eslint-plugin-vue": "~10.4.0",
     "globals": "^16.3.0",
+    "nodemon": "^3.0.1",
     "prettier": "3.6.2",
     "vite": "^7.1.7",
     "vite-plugin-vue-devtools": "^8.0.2"
